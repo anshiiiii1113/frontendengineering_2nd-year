@@ -8,16 +8,40 @@
     <meta name="author" content="Anshita Gupta">
     <title>Media Gallery</title>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 20px;
+    }
+    video {
+        margin: 10px 0;
+        display: block;
+    }
+    img {
+        margin: 10px 0;
+        display: block;
+    }
+    ::backdrop{
+        
+    }
+
+</style>
 <body>
-    <p><strong>Here are some videos from my gallery:</strong></p>
-    <video width="320" height="240" controls>
-        <source src="https://youtu.be/z86ez8gPgn4?si=pNbixM1nAfs6L2W0" type="video/mp4">
+    <p> <strong>Here are some videos from my gallery:</strong></p>
+
+    <div style="display: flex; gap: 20px;">
+    <video width="200" height="240" controls>
+        <source src="video1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <video width="320" height="240" controls>
-        <source src="https://youtu.be/gVFHPz0BKhw?si=21YARhDRl9aJd9-T" type="video/mp4">
-        This is more entertaining than the previous one.
+
+    <video width="200" height="240" controls>
+        <source src="video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
+</div>
+
     <p><strong>Here are some images from my gallery:</strong></p>
     <img src="C:\Users\Asus\OneDrive\Pictures\IMG20260425183253.jpg" alt="daytime" width="320" height="240">
     <img src="C:\Users\Asus\OneDrive\Pictures\IMG20260419041304.jpg" alt="nighttime" width="320" height="240">

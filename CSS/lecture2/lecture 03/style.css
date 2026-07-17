@@ -1,0 +1,50 @@
+
+ body{
+    background-color: #111827;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:40px;
+}
+
+.main{
+    display:flex;
+    gap:30px;
+    margin-bottom:30px;
+    
+}
+
+.container,
+.Body{
+    flex:1;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.4);
+    margin: 20px;
+}
+.container{
+    background:#FFE8A3;
+    color:#222;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.Body{
+    background:#D8B4FE;
+    color:#222;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:right;
+
+    
+}
+
+
+.footer{
+    background:#A7F3D0;
+    color:#222;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.4);
+    float:left;
+    text-align:center;
+}

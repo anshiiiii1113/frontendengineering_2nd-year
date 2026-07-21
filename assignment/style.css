@@ -1,68 +1,94 @@
-body{
-    background-color:#000;
-    color:white;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb,#a6c1ee);
+    min-height:100vh;
+}
+
 
 
 .heading{
-    background-color:#111;
-    padding:20px;
     text-align:center;
-    border-bottom:2px solid #00bcd4;
+    padding:30px;
+    color:white;
+    background:rgba(0,0,0,0.25);
+    backdrop-filter:blur(10px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
 
 .heading h1{
-    font-size:36px;
-    color:#00bcd4;
+    font-size:45px;
+    letter-spacing:2px;
+}
+
+.heading p{
+    margin-top:10px;
+    font-size:18px;
 }
 
 
 .container1{
     width:80%;
     margin:30px auto;
-    background-color:#1a1a1a;
-    padding:20px;
-    border-radius:8px;
     text-align:center;
+    padding:20px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
 
-.container1 h3{
-    color:#fff;
-    font-size:24px;
+.container1 h2{
+    color:#6a11cb;
+    margin-bottom:10px;
 }
 
-nav{
-    width:90%;
-    margin:30px auto;
+.container1 p{
+    color:#555;
+    font-size:18px;
 }
 
-nav ul{
-    list-style:none;
+
+
+.video-container{
     display:flex;
-    justify-content:center;
     flex-wrap:wrap;
-    gap:20px;
+    justify-content:center;
+    gap:30px;
+    padding:30px;
 }
 
-nav ul li{
-    background:#1a1a1a;
-    padding:10px;
-    border-radius:8px;
+.video{
+    width:360px;
+    background:white;
+    padding:15px;
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+    transition:0.4s;
 }
 
-nav iframe{
-    width:320px;
-    height:180px;
+.video:hover{
+    transform:translateY(-12px) rotate(-2deg);
+}
+
+.video iframe{
+    width:100%;
+    height:220px;
     border:none;
-    border-radius:6px;
+    border-radius:15px;
 }
 
+/* Footer */
 
 footer{
-    margin-top:40px;
-    background:#111;
-    color:#ccc;
     text-align:center;
-    padding:15px;
-    border-top:2px solid #00bcd4;
+    background:#222;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+    font-size:18px;
 }
